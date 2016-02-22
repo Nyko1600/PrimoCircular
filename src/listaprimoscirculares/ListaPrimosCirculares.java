@@ -33,7 +33,8 @@ public class ListaPrimosCirculares extends javax.swing.JFrame {
         hilo1.start();
         hilo2.start();
         hilo3.start();
-        //Espero un segundo a que terminen los hilos para mostrar la lista
+        //Esperamos un segundo de tiempo a que terminen los hilos para mostrar la lista
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
